@@ -1,0 +1,78 @@
+ End of Run           0
+ Number of Events:    5000000
+ Data file:           Example_Gamma_AngDistr.root
+
+
+ --- Chamber configuration
+ Material:     G4_Galactic
+ Outer Radius: 200 mm
+ Thickness:    10 mm
+
+ --- Target holder
+ Material: G4_Galactic
+
+ --- Calorimeter configuration
+
+--- Detector properties ---
+--- Detector Type:      Box
+--- Scintillator ---
+ Scintillator material: LYSO
+ Section side:          12.4 mm
+ Height:                40 mm
+--- Reflector ---
+ Reflector material:    G4_BARIUM_SULFATE
+ Thickness:             0.4 mm
+--- Teflon ---
+ Teflon material:       G4_TEFLON
+ Side Thickness:        0.2 mm
+ Front Thickness:       0.5 mm
+--- Cover ---
+ Cover material:        G4_Al
+ Side  thickness:       1 mm
+ Front thickness:       4 mm
+ --- Complete detector ---
+ Section side:          15.9999 mm
+ Height:                44.5 mm
+
+ Directory of file for detectors positioning: 
+ /home/moralles/geant4-v11.2.2/Calor5.0-build/DetectorsPositionFiles/
+ File with the detectors positioning:  TesteGN.dat
+ Calorimeter number of detectors:      315
+ Radial extra dislocation:             0
+
+ --- PrimaryGenerator info for this Run
+ Type of primaries:  Particle
+ Particle:           gamma
+ Energy:             0.5 MeV
+ Source position:    (0,0,0) mm
+
+ Particle emitted with PDF for angular distribution
+ File with coefficients:
+/home/moralles/geant4-v11.2.2/Calor5.0-build/Wkq_files/Wkq_Zero_1712MeV_Li7_Sn120.dat
+ Coefficients of the spherical harmonics:
+ Wkq(0,0) = (0.0140666,0)
+ Wkq(1,-1) = (0,0)
+ Wkq(1,0) = (0,0)
+ Wkq(1,1) = (0,0)
+ Wkq(2,-2) = (-0.00102688,-0.00147601)
+ Wkq(2,-1) = (-0.000845955,0.00161156)
+ Wkq(2,0) = (-0.000757173,-0)
+ Wkq(2,1) = (0.000845955,0.00161156)
+ Wkq(2,2) = (-0.00102688,0.00147601)
+ Wkq(3,-3) = (0,0)
+ Wkq(3,-2) = (0,0)
+ Wkq(3,-1) = (0,0)
+ Wkq(3,0) = (0,0)
+ Wkq(3,1) = (0,0)
+ Wkq(3,2) = (0,0)
+ Wkq(3,3) = (0,0)
+ Wkq(4,-4) = (0.000545841,-0.00147272)
+ Wkq(4,-3) = (-0.00222222,0.000271642)
+ Wkq(4,-2) = (0.000301208,0.000464418)
+ Wkq(4,-1) = (-0.000703841,0.00135669)
+ Wkq(4,0) = (0.00074133,0)
+ Wkq(4,1) = (0.000703841,0.00135669)
+ Wkq(4,2) = (0.000301208,-0.000464418)
+ Wkq(4,3) = (0.00222222,0.000271642)
+ Wkq(4,4) = (0.000545841,0.00147272)
+

@@ -1,0 +1,124 @@
+ 
+---> Beginning event: 1 of 1
+
+*********************************************************************************************************
+* G4Track Information:   Particle = Co60,   Track ID = 1,   Parent ID = 0
+*********************************************************************************************************
+
+Step# X(mm)    Y(mm)    Z(mm)    KinE(MeV) dE(MeV)  StepLeng TrackLeng NextVolume  ProcName
+0     0.000    0.000    0.000    0.000     0.000    0.000    0.000     World       initStep
+1     0.000    0.000    0.000    0.000     0.000    0.000    0.000     World       Radioactivation
+
+*********************************************************************************************************
+* G4Track Information:   Particle = e-,   Track ID = 4,   Parent ID = 1
+*********************************************************************************************************
+
+Step# X(mm)    Y(mm)    Z(mm)    KinE(MeV) dE(MeV)  StepLeng TrackLeng NextVolume  ProcName
+0     0.000    0.000    0.000    0.054     0.000    0.000    0.000     World       initStep
+1     4.901    -0.989   -0.345   0.054     0.000    5.012    5.012     targetHolder Transportation
+2     4.901    -0.989   -0.345   0.054     0.000    0.000    5.012     targetHolder msc
+3     4.901    -0.989   -0.345   0.054     0.000    0.000    5.012     targetHolder msc
+4     4.901    -0.989   -0.345   0.054     0.000    0.000    5.012     targetHolder msc
+5     4.901    -0.989   -0.345   0.054     0.000    0.000    5.012     targetHolder msc
+6     4.901    -0.989   -0.345   0.054     0.000    0.000    5.012     targetHolder msc
+7     4.901    -0.989   -0.345   0.054     0.000    0.000    5.012     targetHolder msc
+8     4.901    -0.989   -0.345   0.053     0.000    0.000    5.012     targetHolder msc
+9     4.902    -0.989   -0.345   0.053     0.001    0.000    5.012     targetHolder msc
+10    4.902    -0.989   -0.345   0.052     0.001    0.000    5.013     targetHolder msc
+11    4.902    -0.989   -0.345   0.050     0.002    0.001    5.013     targetHolder msc
+12    4.903    -0.988   -0.346   0.047     0.003    0.001    5.014     targetHolder msc
+13    4.903    -0.988   -0.346   0.046     0.001    0.001    5.014     targetHolder msc
+14    4.902    -0.988   -0.346   0.045     0.001    0.001    5.015     targetHolder msc
+15    4.902    -0.988   -0.347   0.044     0.001    0.001    5.016     targetHolder msc
+16    4.901    -0.988   -0.347   0.042     0.002    0.000    5.016     targetHolder msc
+17    4.901    -0.988   -0.347   0.042     0.000    0.000    5.016     targetHolder msc
+18    4.901    -0.988   -0.347   0.042     0.000    0.000    5.016     World       Transportation
+19    -3.890   -3.141   -2.826   0.042     0.000    9.385    14.401    targetHolder Transportation
+20    -3.890   -3.141   -2.826   0.042     0.000    0.000    14.401    targetHolder msc
+21    -3.890   -3.141   -2.826   0.042     0.000    0.000    14.401    targetHolder msc
+22    -3.890   -3.141   -2.826   0.041     0.000    0.000    14.401    targetHolder msc
+23    -3.890   -3.141   -2.826   0.041     0.000    0.000    14.401    targetHolder msc
+24    -3.890   -3.141   -2.826   0.041     0.000    0.000    14.401    targetHolder msc
+25    -3.890   -3.141   -2.827   0.040     0.001    0.000    14.401    targetHolder msc
+26    -3.890   -3.141   -2.827   0.039     0.001    0.000    14.402    targetHolder msc
+27    -3.891   -3.141   -2.827   0.038     0.001    0.000    14.402    targetHolder msc
+28    -3.891   -3.142   -2.828   0.034     0.004    0.000    14.402    targetHolder msc
+29    -3.891   -3.142   -2.828   0.033     0.001    0.000    14.403    targetHolder msc
+30    -3.891   -3.142   -2.828   0.031     0.002    0.000    14.403    targetHolder msc
+31    -3.891   -3.142   -2.828   0.030     0.001    0.000    14.403    targetHolder msc
+32    -3.892   -3.142   -2.828   0.030     0.001    0.000    14.404    targetHolder msc
+33    -3.892   -3.142   -2.828   0.029     0.000    0.000    14.404    targetHolder msc
+34    -3.892   -3.142   -2.828   0.029     0.000    0.000    14.404    targetHolder msc
+35    -3.892   -3.143   -2.828   0.028     0.001    0.000    14.404    targetHolder msc
+36    -3.892   -3.143   -2.828   0.027     0.001    0.000    14.405    targetHolder msc
+37    -3.892   -3.143   -2.828   0.024     0.003    0.000    14.405    targetHolder msc
+38    -3.891   -3.143   -2.828   0.000     0.024    0.002    14.407    targetHolder eIoni
+
+*********************************************************************************************************
+* G4Track Information:   Particle = anti_nu_e,   Track ID = 3,   Parent ID = 1
+*********************************************************************************************************
+
+Step# X(mm)    Y(mm)    Z(mm)    KinE(MeV) dE(MeV)  StepLeng TrackLeng NextVolume  ProcName
+0     0.000    0.000    0.000    0.260     0.000    0.000    0.000     World       initStep
+1     -528.926 -1500.000 -1194.324 0.260     0.000    1989.013 1989.013  OutOfWorld  Transportation
+
+*********************************************************************************************************
+* G4Track Information:   Particle = Ni60[2505.753],   Track ID = 2,   Parent ID = 1
+*********************************************************************************************************
+
+Step# X(mm)    Y(mm)    Z(mm)    KinE(MeV) dE(MeV)  StepLeng TrackLeng NextVolume  ProcName
+0     0.000    0.000    0.000    0.000     0.000    0.000    0.000     World       initStep
+1     0.000    0.000    0.000    0.000     0.000    0.000    0.000     World       Radioactivation
+
+*********************************************************************************************************
+* G4Track Information:   Particle = gamma,   Track ID = 6,   Parent ID = 2
+*********************************************************************************************************
+
+Step# X(mm)    Y(mm)    Z(mm)    KinE(MeV) dE(MeV)  StepLeng TrackLeng NextVolume  ProcName
+0     0.000    0.000    0.000    1.173     0.000    0.000    0.000     World       initStep
+1     -2.599   4.272    0.236    1.173     0.000    5.006    5.006     targetHolder Transportation
+2     -12.993  21.359   1.180    1.173     0.000    20.022   25.028    World       Transportation
+3     -114.209 187.747  10.368   1.173     0.000    194.972  220.000   sphChamber  Transportation
+4     -119.400 196.281  10.840   1.173     0.000    10.000   230.000   World       Transportation
+5     -912.472 1500.000 82.839   1.173     0.000    1527.688 1757.688  OutOfWorld  Transportation
+
+*********************************************************************************************************
+* G4Track Information:   Particle = Ni60[1332.514],   Track ID = 5,   Parent ID = 2
+*********************************************************************************************************
+
+Step# X(mm)    Y(mm)    Z(mm)    KinE(MeV) dE(MeV)  StepLeng TrackLeng NextVolume  ProcName
+0     0.000    0.000    0.000    0.000     0.000    0.000    0.000     World       initStep
+1     0.000    0.000    0.000    0.000     0.000    0.000    0.000     World       Radioactivation
+
+*********************************************************************************************************
+* G4Track Information:   Particle = gamma,   Track ID = 8,   Parent ID = 5
+*********************************************************************************************************
+
+Step# X(mm)    Y(mm)    Z(mm)    KinE(MeV) dE(MeV)  StepLeng TrackLeng NextVolume  ProcName
+0     0.000    0.000    0.000    1.332     0.000    0.000    0.000     World       initStep
+1     -1.377   4.807    -2.425   1.332     0.000    5.557    5.557     targetHolder Transportation
+2     -1.703   5.945    -3.000   1.332     0.000    1.317    6.874     World       Transportation
+3     -54.510  190.288  -96.017  1.332     0.000    213.126  220.000   sphChamber  Transportation
+4     -56.987  198.937  -100.382 1.332     0.000    10.000   230.000   D_CoverFront Transportation
+5     -57.455  200.570  -101.206 1.332     0.000    1.888    231.888   D_TeflonFront Transportation
+6     -57.579  201.003  -101.424 1.332     0.000    0.500    232.389   D_Scinti    Transportation
+7     -58.379  203.795  -102.833 1.332     0.000    3.228    235.617   D_Reflector Transportation
+8     -62.145  216.943  -109.468 1.332     0.000    15.201   250.818   D_TeflonSide Transportation
+9     -64.029  223.517  -112.785 1.332     0.000    7.601    258.419   D_230_107_117 Transportation
+10    -65.911  230.090  -116.101 1.332     0.000    7.599    266.017   D_CoverSide Transportation
+11    -67.496  235.621  -118.892 1.332     0.000    6.395    272.412   World       Transportation
+12    -429.688 1500.000 -756.886 1.332     0.000    1461.805 1734.217  OutOfWorld  Transportation
+
+*********************************************************************************************************
+* G4Track Information:   Particle = Ni60,   Track ID = 7,   Parent ID = 5
+*********************************************************************************************************
+
+Step# X(mm)    Y(mm)    Z(mm)    KinE(MeV) dE(MeV)  StepLeng TrackLeng NextVolume  ProcName
+0     0.000    0.000    0.000    0.000     0.000    0.000    0.000     World       initStep
+1     1.377    -4.807   2.425    0.000     0.000    5.557    5.557     World       Transportation
+2     1.377    -4.807   2.425    0.000     0.000    0.000    5.557     World       NoProcess
+ Run terminated.
+Run Summary
+  Number of events processed : 1
+  User=0.020000s Real=0.014747s Sys=0.010000s [Cpu=203.4%]
+ End of Run

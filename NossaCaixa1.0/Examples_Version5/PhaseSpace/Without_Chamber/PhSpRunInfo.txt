@@ -1,0 +1,32 @@
+ End of Run 0
+ Primary particle:      O18
+ Primary energy:        275.4 MeV
+ Number of Events:      2000000000
+ Number of Reactions:   24924
+ Number of Projectiles: -5740
+
+ Data file:         PhSpace_01
+
+
+--- Target Info ---------------------
+ Diameter:     10
+ Material:     Selenium76
+ Density:      4.81 g/cm³ 
+ Dimensions:
+  Thickness:   0.00056858 mm 
+  Thickness:   0.273487 mg/cm² 
+
+--- Backing Info --------------------
+ Material:     G4_GRAPHITE
+ Density:      2.21 g/cm³ 
+ Dimensions:
+  Thickness:   0.00034513
+  Thickness:   0.0762737 mg/cm² 
+
+--- Detector Info ---
+ Material:          G4_Galactic
+ Dimensions (mm):   
+   internal radius: 100
+   external radius: 101
+   thickness:       1
+

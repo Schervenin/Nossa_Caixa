@@ -1,0 +1,7 @@
+/home/zero/Insync/jooliveira@usp.br/Google Drive/geant/Calor5.0/CMakeFiles/Calor5.0.dir
+/home/zero/Insync/jooliveira@usp.br/Google Drive/geant/Calor5.0/CMakeFiles/edit_cache.dir
+/home/zero/Insync/jooliveira@usp.br/Google Drive/geant/Calor5.0/CMakeFiles/rebuild_cache.dir
+/home/zero/Insync/jooliveira@usp.br/Google Drive/geant/Calor5.0/CMakeFiles/list_install_components.dir
+/home/zero/Insync/jooliveira@usp.br/Google Drive/geant/Calor5.0/CMakeFiles/install.dir
+/home/zero/Insync/jooliveira@usp.br/Google Drive/geant/Calor5.0/CMakeFiles/install/local.dir
+/home/zero/Insync/jooliveira@usp.br/Google Drive/geant/Calor5.0/CMakeFiles/install/strip.dir

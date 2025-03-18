@@ -1,0 +1,53 @@
+Aqui está o resultado de cálculo da distribuição angular do gama do inelástico (2+, E=1.712 MeV) da reação de7Li+120Sn a 20 MeV (neste caso o detector de partícula está a 90 graus).
+
+Seria 1.171 MeV ???
+
+Os coeficientes da expansão são estes números complexos aqui:
+
+ Wkq(0,0) = (1.406664e-02,0.000000e+00)
+
+ Wkq(2,-2) = (-1.026883e-03,-1.476005e-03)
+ Wkq(2,-1) = (-8.459553e-04,1.611561e-03)
+ Wkq(2,0) = (-7.571732e-04,-0.000000e+00)
+ Wkq(2,1) = (8.459553e-04,1.611561e-03)
+ Wkq(2,2) = (-1.026883e-03,1.476005e-03)
+
+ Wkq(4,-4) = (5.458415e-04,-1.472717e-03)
+ Wkq(4,-3) = (-2.222219e-03,2.716418e-04)
+ Wkq(4,-2) = (3.012081e-04,4.644176e-04)
+ Wkq(4,-1) = (-7.038410e-04,1.356695e-03)
+ Wkq(4,0) = (7.413300e-04,0.000000e+00)
+ Wkq(4,1) = (7.038410e-04,1.356695e-03)
+ Wkq(4,2) = (3.012081e-04,-4.644176e-04)
+ Wkq(4,3) = (2.222219e-03,2.716418e-04)
+ Wkq(4,4) = (5.458415e-04,1.472717e-03)
+
+Para obter a distribuição angular tem que (grosso modo) multiplicar esses coeficientes pela função associada de Legendre Pkq(cos(theta)) e por exp(-i*k*phi).
+
+Na verdade eu uso a função abaixo (com base na Gnu scientific library):
+
+double AngularDistribution::W(double th, double ph){
+  if(th>180.){th=360.-th; ph=ph+180.;}
+  double phi=PI*ph/180.; // phi em radianos
+  double x=cos(PI*th/180.);
+  complex <double> Wc(0.,0.);
+  for(int k=0;k<=4;k+=2)
+  {
+    for(int q=-k;q<=k;q++)
+    {
+      int m=q;
+      double re,im;
+      if(m<0){re=cos(m*(PI-phi)); im=-sin(m*(PI-phi));}
+      else {re=cos(m*phi); im=-sin(m*phi);}
+      complex <double> cf(re,im);
+      Wc+=WkqCoef(k,q)*gsl_sf_legendre_sphPlm(k,abs(m),x)*cf;
+    }
+  }
+  return Wc.real();   
+
+
+A expansão inclui já várias correções de atenuação (não coloquei muito precisamente nenhuma):
+
+Ângulo sólido do detector de partículas, perda de energia do feixe enquanto atravessa o alvo, ... acho que só.
+
+Eu poderia incluir mais efeitos: tamanho da mancha do feixe no alvo, interação hiperfina em vácuo. Talvez somente a primeira tenha algum efeito sensível neste caso particular. Eu também desliguei a atenuação devida à dimensão finita do detector de gama, porque isso será o papel da simulação. Também o efeito do movimento da fonte (no caso, do CM) talvez precise incluir (em uma próxima etapa) na simulação. Eu tenho uma transformação que pode ser aplicada para calcular isso, mas aí deixa de ser uma expansão simples em funções de Legendre.

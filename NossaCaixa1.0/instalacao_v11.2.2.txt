@@ -1,0 +1,155 @@
+﻿------------------------------------------------------------------- 
+Comando para variáveis de ambiente do geant4 versão 11.2.2
+ . /usr/local/share/geant4-v11.2.2-install/bin/geant4.sh
+
+Pode-se acrescentar essa linha no arquivo .bashrc, assim todo terminal aberto terá as variáveis de ambiente necessárias para compilar e rodar o geant4-v11.2.2 
+ 
+------------------------------------------------------------------- 
+O comando cmake para rodar um exemplo ou o seu programa. 
+Exemplo para o exemplo B1
+ 
+cmake -DGeant4_DIR=/usr/local/share/geant4-v11.2.2-install/lib/Geant4-11.2.2 /home/moralles/geant4-v11.2.2/B1
+ 
+------------------------------------------------------------------- 
+Instruções de instalação do geant4
+
+1) copiei geant4-v11.2.2.tar.gz na pasta /usr/local/share/
+2) tar -zxvf geant4-v11.2.2.tar.gz
+3) criei a pasta /usr/local/share/geant4-v11.2.2-build
+4) cd /usr/local/share/geant4-v11.2.2-build
+
+5) cmake -DCMAKE_INSTALL_PREFIX=/usr/local/share/geant4-v11.2.2-install /usr/local/share/geant4-v11.2.2 -DGEANT4_INSTALL_DATA=ON -DGEANT4_USE_OPENGL_X11=ON -DGEANT4_BUILD_MULTITHREADED=OFF
+
+5.1) Para usar tembém a opção gráfica do Qt:
+   cmake -DCMAKE_INSTALL_PREFIX=/usr/local/share/geant4-v11.2.2-install /usr/local/share/geant4-v11.2.2 -DGEANT4_INSTALL_DATA=ON -DGEANT4_USE_OPENGL_X11=ON -DGEANT4_USE_QT=ON -DGEANT4_BUILD_MULTITHREADED=OFF
+
+5.2) Para usar bibliotecas com opção de rodar em multithread
+   cmake -DCMAKE_INSTALL_PREFIX=/usr/local/share/geant4-v11.2.2-install /usr/local/share/geant4-v11.2.2 -DGEANT4_INSTALL_DATA=ON -DGEANT4_USE_OPENGL_X11=ON -DGEANT4_USE_QT=ON -DGEANT4_BUILD_MULTITHREADED=ON
+
+5.3) Para usar a versão do EXPAT instalada pelo próprio Geant:
+   cmake -DCMAKE_INSTALL_PREFIX=/usr/local/share/geant4-v11.2.2-install /usr/local/share/geant4-v11.2.2 -DGEANT4_INSTALL_DATA=ON -DGEANT4_USE_OPENGL_X11=ON -DGEANT4_USE_SYSTEM_EXPAT=OFF
+
+
+6) make -j3
+
+
+7) make install
+
+
+Parece que instalou. Agora vou tentar rodar um exemplo como usuário.
+Num terminal como usuário moralles, criei a pasta /home/moralles/geant4-v11.2.2
+
+12) cd geant4-v11.2.2
+13) . /usr/local/share/geant4-v11.2.2-install/bin/geant4.sh
+
+Este último comando é a nova maneira de definir as variáveis de ambiente.
+Para evitar ter de escrever isso sempre, futuramente podemos colocar esta linha de comando no .bashrc
+
+Vou testar usando o novo exemplo basico B1, seguindo as instruções da página:
+http://geant4.cern.ch/UserDocumentation/UsersGuides/ForApplicationDeveloper/html/ch02s07.html
+
+14) copiei a pasta de /usr/local/share/geant4-v11.2.2/examples/basic/B1 para /home/moralles/geant4-v11.2.2
+15) criei uma pasta /home/moralles/geant4-v11.2.2/B1-build
+
+16)  cd /home/moralles/geant4-v11.2.2/B1-build
+     cmake -DGeant4_DIR=/usr/local/share/geant4-v11.2.2-install/lib/Geant4-11.2.2 /home/moralles/geant4-v11.2.2/B1
+  
+Nesta linha de cima há um espaço em branco antes de /home/moralles …
+O que apareceu na tela:
+
+moralles@positron:~/geant4-v11.2.2/B1-build$ cmake -DGeant4_DIR=/usr/local/share/geant4-v11.2.2-install/lib64/Geant4-11.2.2 /home/moralles/geant4-v11.2.2/B1
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/moralles/geant4-v11.2.2/B1-build
+
+
+17) make -j3
+O que apareceu na tela:
+
+moralles@positron:~/geant4-v11.2.2/B1-build$ make -j3
+Scanning dependencies of target exampleB1
+[ 16%] [ 33%] [ 50%] Building CXX object CMakeFiles/exampleB1.dir/exampleB1.cc.o                                                                                                                              
+Building CXX object CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o                                                                                                                                             
+Building CXX object CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o                                                                                                                                           
+[ 66%] Building CXX object CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o                                                                                                                           
+[ 83%] Building CXX object CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o                                                                                                                         
+[100%] Building CXX object CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o                                                                                                                                 
+Linking CXX executable exampleB1                                                                                                                                                                              
+[100%] Built target exampleB1                                                                                                                                                                                 
+
+RODEI O PROGRAMA exampleB1 e funcionou.
+
+---------------------------------------------------------------------
+Para tentar compilar meu programa Exemplo
+18) Copiei a pasta Exemplo de /gent4.9.4 para /geant4-v11.2.2
+19) Criei a pasta /home/moralles/geant4-v11.2.2/Exemplo-build
+20) Copiei o arquivo CMakeLists.txt da pasta B1 para dentro da pasta /home/moralles/geant4-v11.2.2/Exemplo
+21) Alterei o arquivo CMakeLists.txt trocando coisas que achei adequado trocar de exampleB1 por Exemplo. Comentei algumas linhas que achava que não eram necessárias quando eu comparei o conteúdo da pasta B1 com o conteúdo da pasta Exemplo
+22) cd /Exemplo-build
+
+Então tentei fazer com o meu Exemplo o mesmo procedimento que eu tinha feito com o B1:
+
+23) moralles@positron:~/geant4-v11.2.2/Exemplo-build$ cmake -DGeant4_DIR=/usr/local/share/geant4-v11.2.2-install/lib64/Geant4-11.2.2 /home/moralles/geant4-v11.2.2/Exemplo
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/moralles/geant4-v11.2.2/Exemplo-build
+
+24) moralles@positron:~/geant4-v11.2.2/Exemplo-build$ make -j3
+Scanning dependencies of target Exemplo
+[  9%] [ 27%] [ 27%] Building CXX object CMakeFiles/Exemplo.dir/Exemplo.cc.o                                 
+Building CXX object CMakeFiles/Exemplo.dir/src/ExemploDetectorMessenger.cc.o                                 
+Building CXX object CMakeFiles/Exemplo.dir/src/ExemploHit.cc.o                                               
+/home/moralles/geant4-v11.2.2/Exemplo/src/ExemploHit.cc:32: warning: unused parameter ‘right’                    
+[ 36%] Building CXX object CMakeFiles/Exemplo.dir/src/ExemploRunAction.cc.o
+[ 45%] Building CXX object CMakeFiles/Exemplo.dir/src/ExemploPrimaryGeneratorAction.cc.o                     
+/home/moralles/geant4-v11.2.2/Exemplo/src/ExemploRunAction.cc:67: warning: unused parameter ‘aRun’               
+/home/moralles/geant4-v11.2.2/Exemplo/src/ExemploRunAction.cc:87: warning: unused parameter ‘aRun’
+[ 54%] Building CXX object CMakeFiles/Exemplo.dir/src/ExemploSD.cc.o
+[ 63%] Building CXX object CMakeFiles/Exemplo.dir/src/ExemploEspectro.cc.o                                   
+[ 72%] Building CXX object CMakeFiles/Exemplo.dir/src/PhysicsListMessenger.cc.o                              
+[ 81%] Building CXX object CMakeFiles/Exemplo.dir/src/PhysicsList.cc.o                                       
+/home/moralles/geant4-v11.2.2/Exemplo/src/ExemploSD.cc:89: warning: unused parameter ‘ROhist’                    
+/home/moralles/geant4-v11.2.2/Exemplo/src/ExemploSD.cc:100: warning: unused parameter ‘HCE’
+[ 90%] Building CXX object CMakeFiles/Exemplo.dir/src/ExemploDetectorConstruction.cc.o
+[100%] Building CXX object CMakeFiles/Exemplo.dir/src/ExemploRunMessenger.cc.o                               
+Linking CXX executable Exemplo                                                                               
+[100%] Built target Exemplo 
+
+
+O EXECUTÁVEL FOI CRIADO!!!
+Vamos ver se roda.
+
+25) ./Exemplo
+Ao rodar deu este erro. 
+***** Can not open a macro file <initInter.mac>
+Falta o initInter.mac. Esqueci que para rodar este meu Exemplo preciso de um arquivo com comandos macro chamado initInter.mac na mesma pasta do executável.
+
+26) copiei um initInter.mac que usava no geant4.9.4 (estava em /home/moralles/geant4.9.4/bin/Linix-g++/exemplo/initInter.mac para a pasta Exemplo-build
+./Exemplo
+FUNCIONOU !!!
+
+
+Depois que fiz isso, vi que há algumas utilidades em algumas linhas que comentei no arquivo CmakeLists.txt
+Poderia ter deixado ele copiar automaticamente o initInter.mac para a pasta Exemplo-build, por exemplo. Isso evitaria o problema que tive na hora de rodar. Mas então eu teria que ter o arquivo initInter.mac na pasta Exemplo. Para usar todos os recursos do Cmake e entender tudo o que está no arquivo CmakeLists.txt é preciso ler o manual do Cmake.
+
+

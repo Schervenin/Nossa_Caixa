@@ -1,0 +1,100 @@
+# ------------------------------------------- Verboses
+/control/verbose 0
+/run/verbose 1
+/event/verbose 0
+/tracking/verbose 0
+
+# -------------------------------------- Physics Models
+# Set of the physic models       # before /run/initialize
+#
+
+#/Physics/addPhysics standard_opt4  # only electromagnetic
+/Physics/addPhysics EM_OPT4_RD     # electromagnetic + radioactive decay
+
+#/Physics/addPhysics HADRONTHERAPY_1 # models with High Precision
+#/Physics/addPhysics HADRONTHERAPY_2 # no High Precision
+
+# enable gamma correlation
+#/process/deex/correlatedGamma 1  # before /run/initialize
+
+
+########################################################
+# -------------------------------------- Inicialization
+/run/initialize
+
+# If you use radioactive decay, then uncomment the following UI command,
+# in order to set a very high time threshold to allow all decays to happen
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 year
+
+########################################################
+
+
+#--------------------------------------- Visualization
+# Comment to turn off
+#/control/execute Calor_vis.mac
+
+
+# --------------------------------------- Detectors
+# ----- detectors: Shape
+#/detectors/Shape Cylinder     # options: Cylinder or Box (default)
+
+# ----- detectors: Position
+/detectors/FileDirectory /home/moralles/geant4-v11.2.2/Calor5.0-build/DetectorsPositionFiles/      # (default ./)
+
+/detectors/FileName TesteGN.dat
+
+# ----- detectors: Material
+#/detectors/Material LaBr3             # LYSO (default), LaBr3, GAGG
+
+# ----- detectors: Dislocation
+#/detectors/Dislocation 100 mm        # radial dislocation (default 0.0)
+
+
+# --------------------------------------- Chamber
+#/chamber/Material G4_Al              # options: G4_Al G4_Galactic (vacuum)
+#/chamber/Thickness 20 mm             # value unit (default  10 mm)
+#/chamber/Radius 150                  # value unit (default 240 mm)
+#/chamber/TargetHolderMaterial G4_Al  # options: G4_Al or G4_Cu (default)
+
+# --------------------------------------- Primary
+# ----- set primary type
+/primary/Type Isotope   # options: Particle (default), Isotope, PhaseSpaceFile, IntrinsicRad
+/primary/Ion 56 133 0    # values: Z A excitation energy Ba-133
+
+# Note: if you want to turn on the angular correlation flag, 
+#       see option above before the initialization
+
+/gun/energy 0.0  
+/gun/position 0 0 0
+
+#/primary/Type Particle
+#/gun/particle gamma   # others: e-, neutron, alpha ... (see /particle/list)
+#/gun/energy 250 keV
+
+# ----- beam solid angle (for Particle type)
+#/primary/PhiMin       0 deg    # azimuthal (0 = +x axis)
+#/primary/PhiMax     360 deg
+#/primary/ThetaMin     0 deg    # polar (0 = +z axis)
+#/primary/ThetaMax   180 deg
+
+# ----- angular distribution (for Particle type)
+#/primary/AngularDistribution 1  # ON: 1 or OFF: 0 (default)
+#/primary/AngularDistDirectory ./Wkq_files/  # default ./  
+#/primary/AngularDistName Wkl_Zero_1712MeV_Li7_Sn120.dat
+#/primary/kmax 4                # kmax for the spherical harmonics
+
+
+#------------------------------------ Output File Name
+/OutputFile/FileName Run_Ba133.root
+
+
+# ----------------------------------- Random seed choice
+#/random/setSeeds 96682104 70158382
+
+
+# ----------------------------------- Test Geometry Overlaps
+/run/beamOn 0    # no beam, only to see the new geometry
+/geometry/test/run
+
+#------------------------------------ Beam On 
+/run/beamOn 1000000
