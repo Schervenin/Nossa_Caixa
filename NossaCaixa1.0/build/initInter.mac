@@ -35,10 +35,10 @@
 
 # --------------------------------------- Detectors
 # ----- detectors: Shape
-/detectors/Shape Cylinder     # options: Cylinder or Box (default)
+/detectors/Shape Box     # options: Cylinder or Box (default)
 
 # ----- detectors: Position
-/detectors/FileDirectory /home/moralles/geant4-v11.2.2/Calor5.0-build/DetectorsPositionFiles/      # (default ./)
+/detectors/FileDirectory ./DetectorsPositionFiles/      # (default ./)
 
 #/detectors/FileName TesteGN.dat
 #/detectors/FileName teste.dat
@@ -46,8 +46,9 @@
 #/detectors/FileName lplace-radial.dat
 #/detectors/FileName lplace-parallel.dat
 #/detectors/FileName lplace-oneblock_cylinders.dat
-/detectors/FileName lplace-onedetector.dat
+#/detectors/FileName lplace-onedetector.dat
 #/detectors/FileName lplace-radialblock.dat
+/detectors/FileName lplaceNC.dat
 
 # ----- detectors: Material
 /detectors/Material LYSO             # LYSO (default), LaBr3, GAGG

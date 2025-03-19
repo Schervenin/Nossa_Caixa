@@ -1,4 +1,4 @@
- End of Run           1
+ End of Run           0
  Number of Events:    1
  Data file:           Test_Calor.root
 
@@ -6,7 +6,7 @@
  --- Chamber configuration
  Material:     G4_Galactic
  Outer Radius: 200 mm
- Thickness:    10 mm
+ Thickness:    5 mm
 
  --- Target holder
  Material: G4_Cu
@@ -14,10 +14,10 @@
  --- Calorimeter configuration
 
 --- Detector properties ---
---- Detector Type:      Cylinder
+--- Detector Type:      Box
 --- Scintillator ---
  Scintillator material: LYSO
- Section diameter:      12.4 mm
+ Section side:          12.4 mm
  Height:                40 mm
 --- Reflector ---
  Reflector material:    G4_BARIUM_SULFATE
@@ -25,18 +25,14 @@
 --- Teflon ---
  Teflon material:       G4_TEFLON
  Side Thickness:        0.2 mm
- Front Thickness:       0.5 mm
---- Cover ---
- Cover material:        G4_Al
- Side  thickness:       1 mm
- Front thickness:       4 mm
+ Front Thickness:       0.2 mm
  --- Complete detector ---
- Section diameter:      15.9999 mm
- Height:                44.5 mm
+ Section side:          13.6 mm
+ Height:                40.2 mm
 
  Directory of file for detectors positioning: 
- /home/moralles/geant4-v11.2.2/Calor5.0-build/DetectorsPositionFiles/
- File with the detectors positioning:  lplace-onedetector.dat
+ ./DetectorsPositionFiles/
+ File with the detectors positioning:  lplaceNC.dat
  Calorimeter number of detectors:      1
  Detector position: (0,0,30) cm
  Radial extra dislocation:             0
