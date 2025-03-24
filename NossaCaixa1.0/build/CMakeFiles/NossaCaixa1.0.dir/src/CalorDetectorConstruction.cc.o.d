@@ -328,23 +328,24 @@ CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o: \
  /usr/include/assert.h \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4ThreeVector.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4ios.hh \
- /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/include/CalorDetectorMessenger.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4UImessenger.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4UIdirectory.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4UIcommand.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4ApplicationState.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4UIparameter.hh \
- /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/include/DetectorElement.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4NistManager.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4ICRU90StoppingData.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Material.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4NistElementBuilder.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4NistMaterialBuilder.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Pow.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Exp.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Box.hh \
+ /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/include/CADMesh.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4String.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4TriangularFacet.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VFacet.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/windefs.hh \
+ /usr/include/c++/13/array /usr/include/c++/13/compare \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4AssemblyVolume.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4AssemblyTriplet.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4AssemblyTriplet.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4AssemblyVolume.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4TessellatedSolid.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4GeomTypes.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4GeomConfig.hh \
+ /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
+ /usr/include/c++/13/bits/stl_multiset.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Voxelizer.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4SurfBits.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Box.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4CSGSolid.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Polyhedron.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/HepPolyhedron.h \
@@ -356,6 +357,71 @@ CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o: \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Visible.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Visible.icc \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Box.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Voxelizer.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Tet.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4UIcommand.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4ApplicationState.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4UIparameter.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/Randomize.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/Randomize.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/DualRand.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandomEngine.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandomEngine.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/JamesRandom.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/MixMaxRng.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/MTwistEngine.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RanecuEngine.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RanluxEngine.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/Ranlux64Engine.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RanluxppEngine.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RanshiEngine.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandBinomial.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/Random.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/Random.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Utility/memory.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandBinomial.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandBreitWigner.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandFlat.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Utility/thread_local.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandFlat.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandBreitWigner.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandChiSquare.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandChiSquare.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandExponential.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandExponential.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandExpZiggurat.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandBit.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandBit.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGamma.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGamma.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGauss.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGauss.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGaussQ.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGaussQ.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGaussZiggurat.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGeneral.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGeneral.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandLandau.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandLandau.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandPoissonQ.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandPoisson.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandPoisson.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandStudentT.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandStudentT.icc \
+ /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/include/CalorDetectorMessenger.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4UImessenger.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4UIdirectory.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4UIcommand.hh \
+ /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/include/DetectorElement.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4NistManager.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4ICRU90StoppingData.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Material.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4NistElementBuilder.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4NistMaterialBuilder.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Pow.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Exp.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Box.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Tubs.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Tubs.icc \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Sphere.hh \
@@ -365,7 +431,6 @@ CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o: \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Transform3D.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4RotationMatrix.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Element.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4UIcommand.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VisAttributes.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/graphics_reps_defs.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Colour.hh \
@@ -374,8 +439,6 @@ CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o: \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4PhysicalConstants.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4RunManager.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Event.hh \
- /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
- /usr/include/c++/13/bits/stl_multiset.h \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/evtdefs.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Allocator.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4AllocatorPool.hh \
@@ -396,7 +459,6 @@ CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o: \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4StackedTrack.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4TrackStack.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4SmartTrackStack.hh \
- /usr/include/c++/13/array /usr/include/c++/13/compare \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4SubEventTrackStack.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4SubEvent.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Track.hh \
@@ -469,52 +531,6 @@ CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o: \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4NoProcess.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VProcess.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/Randomize.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/Randomize.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/DualRand.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandomEngine.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandomEngine.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/JamesRandom.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/MixMaxRng.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/MTwistEngine.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RanecuEngine.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RanluxEngine.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/Ranlux64Engine.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RanluxppEngine.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RanshiEngine.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandBinomial.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/Random.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/Random.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Utility/memory.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandBinomial.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandBreitWigner.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandFlat.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Utility/thread_local.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandFlat.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandBreitWigner.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandChiSquare.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandChiSquare.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandExponential.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandExponential.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandExpZiggurat.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandBit.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandBit.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGamma.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGamma.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGauss.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGauss.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGaussQ.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGaussQ.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGaussZiggurat.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGeneral.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandGeneral.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandLandau.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandLandau.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandPoissonQ.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandPoisson.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandPoisson.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandStudentT.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Random/RandStudentT.icc \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4PhysicsTable.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4PhysicsTable.icc \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VParticleChange.hh \

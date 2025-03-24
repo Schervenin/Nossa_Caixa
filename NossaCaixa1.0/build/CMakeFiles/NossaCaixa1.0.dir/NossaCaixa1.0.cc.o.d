@@ -528,6 +528,36 @@ CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o: \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Material.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4ThreeVector.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4ios.hh \
+ /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/include/CADMesh.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4String.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4TriangularFacet.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VFacet.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/windefs.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4AssemblyVolume.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4AssemblyTriplet.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4AssemblyTriplet.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4AssemblyVolume.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4TessellatedSolid.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4GeomTypes.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4GeomConfig.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Voxelizer.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4SurfBits.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Box.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4CSGSolid.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Polyhedron.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/HepPolyhedron.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4TwoVector.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Vector/TwoVector.h \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Point3D.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Normal3D.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Visible.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Visible.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Box.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Voxelizer.icc \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Tet.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4UIcommand.hh \
+ /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/Randomize.hh \
  /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/include/CalorActionInitialization.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VUserActionInitialization.hh \
  /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/include/CalorPhysicsList.hh \
@@ -607,7 +637,6 @@ CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o: \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VGraphicsSystem.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4ModelingParameters.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VisExtent.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Point3D.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VisAttributes.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/graphics_reps_defs.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Colour.hh \
@@ -632,23 +661,10 @@ CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o: \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Plane3D.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Geometry/Plane3D.h \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VMarker.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Visible.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Visible.icc \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VMarker.icc \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4ViewParameters.icc \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4PhysicalVolumeModel.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4PseudoScene.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Box.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4GeomTypes.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4GeomConfig.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4CSGSolid.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Polyhedron.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/HepPolyhedron.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4TwoVector.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Vector/TwoVector.h \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Normal3D.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Box.icc \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Cons.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Cons.icc \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Orb.hh \
@@ -678,11 +694,6 @@ CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o: \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4PolyhedraHistorical.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Polyhedra.icc \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4TessellatedSolid.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Voxelizer.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4SurfBits.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VFacet.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/windefs.hh \
- /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Voxelizer.icc \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VViewer.icc \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4THitsMap.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4THitsCollection.hh \
