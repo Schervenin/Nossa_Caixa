@@ -11,6 +11,7 @@
 #include "G4VUserDetectorConstruction.hh"
 #include "G4SubtractionSolid.hh"
 #include "DetectorElement.hh"
+#include "CADMesh.hh"
 
 #include <map>
 
@@ -81,14 +82,14 @@ class CalorDetectorConstruction : public G4VUserDetectorConstruction
    G4Material*         sphChamberMaterial = nullptr;
    G4double            sphChInnerRadius,sphChOuterRadius,sphChThickness,sphLength;
    G4double            AngleSphere;
-   G4Tubs*           sphChamber_solid = nullptr;
+   G4VSolid*           sphChamber_solid = nullptr;
    G4LogicalVolume*    sphChamber_logic = nullptr;
    G4ThreeVector       sphChamberPosition;      
    G4VPhysicalVolume*  sphChamber_phys;
    
   // prototype box for Cap (=> 0 <=)
    G4Material* CapMaterial = nullptr;
-   G4SubtractionSolid*      Cap_solid = nullptr;
+   G4VSolid*      Cap_solid = nullptr;
    G4double    widthCap, lengthCap, thicknessCap, wallxCap, wallyCap, frontCap;  // X, Y, Z
    G4ThreeVector    *capPosition = nullptr, *capAngle = nullptr;
    G4LogicalVolume*  Cap_logic    = nullptr;

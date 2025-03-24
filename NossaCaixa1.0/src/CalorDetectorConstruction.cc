@@ -159,128 +159,31 @@ G4VPhysicalVolume* CalorDetectorConstruction::Construct()
 	  Cap_solid=0;
   }
   
-  G4Box *CapBulk_solid = new G4Box( "CapBulk",widthCap/2.0,lengthCap/2.0,thicknessCap/2.0 );
   
- /* //**************** <=0=> 
-  
-// Define the BREP solid with the surface
-G4BREPSolid *CapBulk_solid = new G4BREPSolid("CapBulk");
+ /* 
+ //**************** <=0=> 
+    G4Box *CapBulk_solid = new G4Box( "CapBulk",widthCap/2.0,lengthCap/2.0,thicknessCap/2.0 );
+ 
 
-  std::vector<G4ThreeVector> vertices[12];
+  G4Tubs* cyl1= new G4Tubs("Cylinder1",0*mm,12*mm,10*mm,0,360.*deg); 
+ 
+  G4ThreeVector relativeCutPosition(0.0 * mm, 0.0 * mm, -35*mm); // Translation
+  G4RotationMatrix* rot1 = new G4RotationMatrix();
+  rot1->rotateX(45.0*deg);
+  rot1->rotateY(45.0*deg);
+  G4SubtractionSolid * cut1 = new G4SubtractionSolid("cut1",CapBulk_solid,cyl1,rot1,relativeCutPosition);
 
-// Define vertices for the polygon1 //Front
-
-vertices[0].push_back(G4ThreeVector(-20.34276722,  19.91017024,  -4. ));
-vertices[0].push_back(G4ThreeVector(-13.21537162,  24.95,        -4.));
-vertices[0].push_back(G4ThreeVector(13.21537162,  24.95,        -4.));
-vertices[0].push_back(G4ThreeVector(20.34276722,  19.91017024,  -4. ));
-vertices[0].push_back(G4ThreeVector(20.34276722,  -19.91017024,  -4. ));
-vertices[0].push_back(G4ThreeVector(13.21537162,  -24.95,        -4.));
-vertices[0].push_back(G4ThreeVector(-13.21537162,  -24.95,        -4.));
-vertices[0].push_back(G4ThreeVector(-20.34276722,  -19.91017024,  -4. ));
-
-//Left chamfer
-vertices[1].push_back(G4ThreeVector(-21.95,        21.51740302,  -0.11979683));
-vertices[1].push_back(G4ThreeVector(-20.34276722,  19.91017024,  -4. ));
-vertices[1].push_back(G4ThreeVector(-20.34276722,  -19.91017024,  -4. ));
-vertices[1].push_back(G4ThreeVector(-21.95,        -21.51740302,  -0.11979683));
-
-
-//Right chamfer 
-vertices[2].push_back(G4ThreeVector(21.95,        21.51740302,  -0.11979683));
-vertices[2].push_back(G4ThreeVector(21.95,        -21.51740302,  -0.11979683));
-vertices[2].push_back(G4ThreeVector(20.34276722,  -19.91017024,  -4. ));
-vertices[2].push_back(G4ThreeVector(20.34276722,  19.91017024,  -4. ));
-
-
-//Left
-vertices[3].push_back(G4ThreeVector(-21.95,        -24.95,         60.));
-vertices[3].push_back(G4ThreeVector(-21.95,        24.95,         60.));
-vertices[3].push_back(G4ThreeVector(-21.95,        24.95,         4.73462838));
-vertices[3].push_back(G4ThreeVector(-21.95,        21.51740302,  -0.11979683));
-vertices[3].push_back(G4ThreeVector(-21.95,        -21.51740302,  -0.11979683));
-vertices[3].push_back(G4ThreeVector(-21.95,        -24.95,         4.73462838));
-
-
-//Right
-vertices[4].push_back(G4ThreeVector(21.95,        -24.95,         4.73462838));
-vertices[4].push_back(G4ThreeVector(21.95,        -21.51740302,  -0.11979683));
-vertices[4].push_back(G4ThreeVector(21.95,        21.51740302,  -0.11979683));
-vertices[4].push_back(G4ThreeVector(21.95,        24.95,         4.73462838));
-vertices[4].push_back(G4ThreeVector(21.95,        24.95,         60.));
-vertices[4].push_back(G4ThreeVector(21.95,        -24.95,         60.));
-
-// Bottom
-vertices[5].push_back(G4ThreeVector(21.95,        -24.95,         60.));
-vertices[5].push_back(G4ThreeVector(-21.95,        -24.95,         60.));
-vertices[5].push_back(G4ThreeVector(-21.95,        -24.95,         4.73462838));
-vertices[5].push_back(G4ThreeVector(-13.21537162,  -24.95,        -4.));
-vertices[5].push_back(G4ThreeVector(13.21537162,  -24.95,        -4.));
-vertices[5].push_back(G4ThreeVector(21.95,        -24.95,         4.73462838));
-
-
- //Top
-vertices[6].push_back(G4ThreeVector(21.95,        24.95,         4.73462838));
-vertices[6].push_back(G4ThreeVector(13.21537162,  24.95,        -4.));
-vertices[6].push_back(G4ThreeVector(-13.21537162,  24.95,        -4.));
-vertices[6].push_back(G4ThreeVector(-21.95,        24.95,         4.73462838));
-vertices[6].push_back(G4ThreeVector(-21.95,        24.95,         60.));
-vertices[6].push_back(G4ThreeVector(21.95,        24.95,         60.));
-
-
-// Corners
-
-// Top Right Corner
-vertices[7].push_back(G4ThreeVector(20.34276722,  19.91017024,  -4. ));
-vertices[7].push_back(G4ThreeVector(13.21537162,  24.95,        -4.));
-vertices[7].push_back(G4ThreeVector(21.95,        24.95,         4.73462838));
-vertices[7].push_back(G4ThreeVector(21.95,        21.51740302,  -0.11979683));
-
-// Top Left Corner
-vertices[8].push_back(G4ThreeVector(-21.95,        21.51740302,  -0.11979683));
-vertices[8].push_back(G4ThreeVector(-21.95,        24.95,         4.73462838));
-vertices[8].push_back(G4ThreeVector(-13.21537162,  24.95,        -4.));
-vertices[8]push_back(G4ThreeVector(-20.34276722,  19.91017024,  -4. ));
-
-
-// Bottom Left Corner
-vertices[9].push_back(G4ThreeVector(-20.34276722,  -19.91017024,  -4. ));
-vertices[9].push_back(G4ThreeVector(-13.21537162,  -24.95,        -4.));
-vertices[9].push_back(G4ThreeVector(-21.95,        -24.95,         4.73462838));
-vertices[9].push_back(G4ThreeVector(-21.95,        -21.51740302,  -0.11979683));
-
-// Bottom Right Corner
-vertices[10].push_back(G4ThreeVector(21.95,        -21.51740302,  -0.11979683));
-vertices[10].push_back(G4ThreeVector(21.95,        -24.95,         4.73462838));
-vertices[10].push_back(G4ThreeVector(13.21537162, -24.95,        -4.));
-vertices[10].push_back(G4ThreeVector(20.34276722,  -19.91017024,  -4. ));
-
-//Back
-vertices[10].push_back(G4ThreeVector(-21.95,        -24.95,  60.0));
-vertices[10].push_back(G4ThreeVector(21.95,        -24.95,  60.0));
-vertices[10].push_back(G4ThreeVector(21.95,        24.95,  60.0));
-vertices[10].push_back(G4ThreeVector(-21.95,        24.95,  60.0));
-
-// Create a polygonal surface
-G4Polygon* polygon[12];
-G4Surface* surface[12];
-
-for (int i=0,i<12,i++){
-polygon[i] = new G4Polygon(vertices[i]);
-// Create a surface from the polygon
-surface[i] = new G4Surface(polygon[i]);
-CapBulk_solid->AddSurface(surface[i]);
-}
-     
-  //**************** <=0=> 
-  
-  */
-  
   
   G4Box *CapHollow_solid = new G4Box( "CapBulk", widthCap/2.0 - wallxCap, lengthCap/2.0 - wallyCap, thicknessCap/2.0 - frontCap);
   G4ThreeVector relativeHollowPosition(0.0 * mm, 0.0 * mm, frontCap/2.); // Translation
-  Cap_solid = new G4SubtractionSolid("Cap_sol",CapBulk_solid,CapHollow_solid,0,relativeHollowPosition);
+  //Cap_solid = new G4SubtractionSolid("Cap_sol",CapBulk_solid,CapHollow_solid,0,relativeHollowPosition);
 
+  Cap_solid = new G4SubtractionSolid("Cap_sol",cut1,CapHollow_solid,0,relativeHollowPosition);
+ //**************** <=0=>  
+  */
+  
+  auto mesh = CADMesh::TessellatedMesh::FromSTL("SoDetBox.stl");
+  Cap_solid = mesh->GetSolid();
     
   if(Cap_logic)
   {
@@ -332,7 +235,11 @@ CapBulk_solid->AddSurface(surface[i]);
     sphChamber_solid = 0;
   }
 //  sphChamber_solid = new G4Sphere("sphChamber_solid",sphChInnerRadius,sphChOuterRadius,PhiInitial,DeltaPhi,ThetaInitial,DeltaTheta);
-  sphChamber_solid = new G4Tubs("sphChamber_solid",sphChInnerRadius,sphChOuterRadius,sphLength,0.,360.);
+ // sphChamber_solid = new G4Tubs("sphChamber_solid",sphChInnerRadius,sphChOuterRadius,sphLength,0.,360.);
+  
+  auto meshSup = CADMesh::TessellatedMesh::FromSTL("SoSuportes.stl");
+  sphChamber_solid = meshSup->GetSolid();
+  
 
   if(sphChamber_logic) 
   {  
