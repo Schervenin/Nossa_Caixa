@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0"
+CMAKE_SOURCE_DIR = /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build"
+CMAKE_BINARY_DIR = /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/NossaCaixa1.0.dir/depend.make
@@ -70,214 +70,214 @@ include CMakeFiles/NossaCaixa1.0.dir/progress.make
 include CMakeFiles/NossaCaixa1.0.dir/flags.make
 
 CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/NossaCaixa1.0.cc
+CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/NossaCaixa1.0.cc
 CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/NossaCaixa1.0.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/NossaCaixa1.0.cc
 
 CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/NossaCaixa1.0.cc" > CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/NossaCaixa1.0.cc > CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/NossaCaixa1.0.cc" -o CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/NossaCaixa1.0.cc -o CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.s
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorActionInitialization.cc
+CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorActionInitialization.cc
 CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorActionInitialization.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorActionInitialization.cc
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorActionInitialization.cc" > CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorActionInitialization.cc > CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorActionInitialization.cc" -o CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorActionInitialization.cc -o CMakeFiles/NossaCaixa1.0.dir/src/CalorActionInitialization.cc.s
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorDetectorConstruction.cc
+CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorDetectorConstruction.cc
 CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorDetectorConstruction.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorDetectorConstruction.cc
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorDetectorConstruction.cc" > CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorDetectorConstruction.cc > CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorDetectorConstruction.cc" -o CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorDetectorConstruction.cc -o CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorConstruction.cc.s
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorDetectorMessenger.cc
+CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorDetectorMessenger.cc
 CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorDetectorMessenger.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorDetectorMessenger.cc
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorDetectorMessenger.cc" > CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorDetectorMessenger.cc > CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorDetectorMessenger.cc" -o CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorDetectorMessenger.cc -o CMakeFiles/NossaCaixa1.0.dir/src/CalorDetectorMessenger.cc.s
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorEventAction.cc
+CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorEventAction.cc
 CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorEventAction.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorEventAction.cc
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorEventAction.cc" > CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorEventAction.cc > CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorEventAction.cc" -o CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorEventAction.cc -o CMakeFiles/NossaCaixa1.0.dir/src/CalorEventAction.cc.s
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorHistoManager.cc
+CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorHistoManager.cc
 CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorHistoManager.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorHistoManager.cc
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorHistoManager.cc" > CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorHistoManager.cc > CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorHistoManager.cc" -o CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorHistoManager.cc -o CMakeFiles/NossaCaixa1.0.dir/src/CalorHistoManager.cc.s
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsList.cc
+CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsList.cc
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsList.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsList.cc
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsList.cc" > CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsList.cc > CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsList.cc" -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsList.cc -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsList.cc.s
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsListMessenger.cc
+CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsListMessenger.cc
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsListMessenger.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsListMessenger.cc
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsListMessenger.cc" > CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsListMessenger.cc > CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsListMessenger.cc" -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPhysicsListMessenger.cc -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPhysicsListMessenger.cc.s
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorAction.cc
+CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorAction.cc
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorAction.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorAction.cc
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorAction.cc" > CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorAction.cc > CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorAction.cc" -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorAction.cc -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorAction.cc.s
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorMessenger.cc
+CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorMessenger.cc
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorMessenger.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorMessenger.cc
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorMessenger.cc" > CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorMessenger.cc > CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorMessenger.cc" -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorPrimaryGeneratorMessenger.cc -o CMakeFiles/NossaCaixa1.0.dir/src/CalorPrimaryGeneratorMessenger.cc.s
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorRunAction.cc
+CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorRunAction.cc
 CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorRunAction.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorRunAction.cc
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorRunAction.cc" > CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorRunAction.cc > CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorRunAction.cc" -o CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorRunAction.cc -o CMakeFiles/NossaCaixa1.0.dir/src/CalorRunAction.cc.s
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorRunActionMessenger.cc
+CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorRunActionMessenger.cc
 CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorRunActionMessenger.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorRunActionMessenger.cc
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorRunActionMessenger.cc" > CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorRunActionMessenger.cc > CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorRunActionMessenger.cc" -o CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorRunActionMessenger.cc -o CMakeFiles/NossaCaixa1.0.dir/src/CalorRunActionMessenger.cc.s
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorSteppingAction.cc
+CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorSteppingAction.cc
 CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorSteppingAction.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorSteppingAction.cc
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorSteppingAction.cc" > CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorSteppingAction.cc > CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/CalorSteppingAction.cc" -o CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/CalorSteppingAction.cc -o CMakeFiles/NossaCaixa1.0.dir/src/CalorSteppingAction.cc.s
 
 CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/DetectorElement.cc
+CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/DetectorElement.cc
 CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/DetectorElement.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/DetectorElement.cc
 
 CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/DetectorElement.cc" > CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/DetectorElement.cc > CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/DetectorElement.cc" -o CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/DetectorElement.cc -o CMakeFiles/NossaCaixa1.0.dir/src/DetectorElement.cc.s
 
 CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.o: CMakeFiles/NossaCaixa1.0.dir/flags.make
-CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.o: /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/SphericalHarmonicsSampling.cc
+CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.o: /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/SphericalHarmonicsSampling.cc
 CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.o: CMakeFiles/NossaCaixa1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.o -c "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/SphericalHarmonicsSampling.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.o -MF CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.o.d -o CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.o -c /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/SphericalHarmonicsSampling.cc
 
 CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/SphericalHarmonicsSampling.cc" > CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/SphericalHarmonicsSampling.cc > CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.i
 
 CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/src/SphericalHarmonicsSampling.cc" -o CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/src/SphericalHarmonicsSampling.cc -o CMakeFiles/NossaCaixa1.0.dir/src/SphericalHarmonicsSampling.cc.s
 
 # Object files for target NossaCaixa1.0
 NossaCaixa1_0_OBJECTS = \
@@ -354,7 +354,7 @@ NossaCaixa1.0: /home/schervenin/Software/Geant4/geant4-v11.3.0-install/lib/libG4
 NossaCaixa1.0: /home/schervenin/Software/Geant4/geant4-v11.3.0-install/lib/libG4clhep.so
 NossaCaixa1.0: /home/schervenin/Software/Geant4/geant4-v11.3.0-install/lib/libG4ptl.so.3.0.0
 NossaCaixa1.0: CMakeFiles/NossaCaixa1.0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable NossaCaixa1.0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable NossaCaixa1.0"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NossaCaixa1.0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -366,6 +366,6 @@ CMakeFiles/NossaCaixa1.0.dir/clean:
 .PHONY : CMakeFiles/NossaCaixa1.0.dir/clean
 
 CMakeFiles/NossaCaixa1.0.dir/depend:
-	cd "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0" "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0" "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build" "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build" "/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/NossaCaixa1.0.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0 /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0 /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/NossaCaixa1.0.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/NossaCaixa1.0.dir/depend
 

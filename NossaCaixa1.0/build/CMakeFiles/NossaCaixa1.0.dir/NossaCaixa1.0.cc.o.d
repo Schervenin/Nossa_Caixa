@@ -1,5 +1,5 @@
 CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o: \
- /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/NossaCaixa1.0.cc \
+ /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/NossaCaixa1.0.cc \
  /usr/include/stdc-predef.h \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Types.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4GlobalConfig.hh \
@@ -515,20 +515,20 @@ CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
- /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/include/CalorDetectorConstruction.hh \
+ /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/include/CalorDetectorConstruction.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4SubtractionSolid.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4BooleanSolid.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4DisplacedSolid.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VBooleanProcessor.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4BooleanSolid.icc \
- /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/include/DetectorElement.hh \
+ /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/include/DetectorElement.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4LogicalVolume.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VPhysicalVolume.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Material.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4ThreeVector.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4ios.hh \
- /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/include/CADMesh.hh \
+ /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/include/CADMesh.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4String.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4TriangularFacet.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VFacet.hh \
@@ -558,9 +558,9 @@ CMakeFiles/NossaCaixa1.0.dir/NossaCaixa1.0.cc.o: \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4Tet.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4UIcommand.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/Randomize.hh \
- /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/include/CalorActionInitialization.hh \
+ /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/include/CalorActionInitialization.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VUserActionInitialization.hh \
- /home/schervenin/geant4\ -\ projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/include/CalorPhysicsList.hh \
+ /home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/include/CalorPhysicsList.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VModularPhysicsList.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4VPhysicsConstructor.hh \
  /home/schervenin/Software/Geant4/geant4-v11.3.0-install/include/Geant4/G4PhysicsListHelper.hh \

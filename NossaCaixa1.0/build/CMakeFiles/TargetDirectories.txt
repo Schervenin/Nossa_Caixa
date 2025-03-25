@@ -1,7 +1,7 @@
-/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/NossaCaixa1.0.dir
-/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/edit_cache.dir
-/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/rebuild_cache.dir
-/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/list_install_components.dir
-/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/install.dir
-/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/install/local.dir
-/home/schervenin/geant4 - projetos/NossaCaixa/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/install/strip.dir
+/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/NossaCaixa1.0.dir
+/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/edit_cache.dir
+/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/rebuild_cache.dir
+/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/list_install_components.dir
+/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/install.dir
+/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/install/local.dir
+/home/schervenin/Downloads/NossaCaixa-20250324T221755Z-001/NossaCaixa/NossaCaixa1.0/build/CMakeFiles/install/strip.dir
